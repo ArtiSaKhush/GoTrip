@@ -37,6 +37,16 @@ ul{
     line-height: 19px;
     color: #FFFFFF;
 }
+.header__nav-link:hover::after{
+    content: '';
+    display: block;
+    height: 3px;
+    background: #FFFFFF;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
 .header__nav-form{
     display: flex;
     max-width: 280px;
@@ -61,3 +71,5 @@ ul{
     line-height: 17px;
     color: #FFFFFF;
 }
+/* header__nav end */
+
