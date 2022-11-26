@@ -73,3 +73,42 @@ ul{
 }
 /* header__nav end */
 
+.header__content{
+    background: url(../images/bg.jpg)  no-repeat center /cover;
+    height: 800px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header__content-title{
+    font-family: 'RSb';
+    font-size: 80px;
+    line-height: 95px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.header__content-text{
+    font-family: 'RM';
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.header__content-link{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF; 
+    padding: 14px 78px;
+    background: #B4436C;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.header__content-link:hover{
+    background: #FFFFFF;
+    color: #B4436C;
+}
+/* header end */
+
+
+
